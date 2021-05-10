@@ -3,7 +3,7 @@ import requests, uuid, json
 st.title("Scripter")
 text=st.text_area("Enter your text",value="Hi")
 target_lang=st.text_input("Enter target language", value='it')
-subscription_key = "3e7d57d42487401e9ea1b73c0b0c4c75"
+subscription_key = "<Your Subscription ID>"
 endpoint = "https://api.cognitive.microsofttranslator.com"
 location = "eastus"
 path = '/translate'
